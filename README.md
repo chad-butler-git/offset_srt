@@ -1,19 +1,19 @@
-# 🎬 Subtitle Offset Tool
+# Subtitle Offset Tool
 
 A simple Python script to shift the timestamps in `.srt` subtitle files by a user-defined number of seconds — perfect for syncing subtitles with video content that has an intro, delay, or offset.
 
 ---
 
-## ✨ Features
+## Features
 
-- ⚡ Offsets subtitles by any number of seconds (positive or negative).
-- 🎯 Supports both forward and backward shifts.
-- 💾 Automatically creates a new subtitle file with the offset in the filename (e.g., `video-offset-4s.srt`).
-- 🧩 No external libraries required — pure Python!
+- Offsets subtitles by any number of seconds (positive or negative).
+- Supports both forward and backward shifts.
+- Automatically creates a new subtitle file with the offset in the filename (e.g., `video-offset-4s.srt`).
+- No external libraries required — pure Python!
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Clone this repository or download the script:
    ```bash
@@ -31,7 +31,7 @@ A simple Python script to shift the timestamps in `.srt` subtitle files by a use
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Run the script with the path to your `.srt` file and the desired offset in seconds:
 
@@ -39,7 +39,7 @@ Run the script with the path to your `.srt` file and the desired offset in secon
 python offset_srt.py <path-to-srt-file> <offset-in-seconds>
 ```
 
-### ✅ Examples
+### Examples
 
 ```bash
 # Add a 4-second delay to all subtitles
@@ -49,7 +49,7 @@ python offset_srt.py welcome.srt 4
 python offset_srt.py interview.srt -2
 ```
 
-### 📂 Output
+### Output
 
 The output file will be saved in the same directory with a modified filename, such as:
 
@@ -58,24 +58,24 @@ The output file will be saved in the same directory with a modified filename, su
 
 ---
 
-## 🛠️ Why Use This?
+## Why Use This?
 
 If your video contains an intro animation, splash screen, or delay that isn’t accounted for in your subtitle file, this script lets you easily adjust the timing without manual editing. Great for online course creators, editors, and video producers.
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork the project and submit a pull request if you’d like to add features.
 
 ---
 
-## 📬 Questions or Feedback?
+## Questions or Feedback?
 
 Open an issue or reach out!
